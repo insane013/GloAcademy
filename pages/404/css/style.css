@@ -1,0 +1,51 @@
+@import url("../../../css/style.css");
+
+.error {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding-top: 50px;
+}
+
+.error__title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.error__img {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.error__text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.error__link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: space-around;
+  color: #2e2e30;
+  display: flex;
+  width: 285px;
+  padding: 24px 42px;
+  margin: 0 auto;
+
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  box-shadow: 0px 4px 0px #b68500;
+  border-radius: 5px 5px 10px 10px;
+  cursor: pointer;
+}
